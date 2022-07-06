@@ -1,0 +1,36 @@
+{
+  "name": "attendance-design",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.7",
+    "@vue/cli-plugin-router": "^5.0.7",
+    "@vue/cli-plugin-typescript": "^5.0.7",
+    "@vue/cli-service": "^5.0.7",
+    "sass": "^1.53.0",
+    "sass-loader": "^12",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "attendance-design@0.1.0",
+  "readme": "ERROR: No README data found!"
+}

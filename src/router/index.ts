@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue'
+import DarkhastMorakhasi from '@/views/darkhast-morakhasi.vue';
 
 Vue.use(VueRouter)
 
@@ -8,7 +9,13 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    children: [
+      {
+        path: '/darkhast-morakhasi',
+        component: DarkhastMorakhasi
+      }
+    ]
   }
 ]
 

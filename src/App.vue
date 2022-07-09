@@ -1,16 +1,7 @@
 <template>
-
-<v-app>
-  <v-app-bar app elevation="0" color="white">
-    
-  </v-app-bar>
-
-  <v-main>
-    <router-view/>
-  </v-main>
-</v-app>
-
-
+<div>
+  <router-view/>
+</div>
 </template>
 
 
